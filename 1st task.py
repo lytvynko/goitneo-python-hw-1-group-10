@@ -1,8 +1,6 @@
 from datetime import datetime, timedelta, date
 from collections import defaultdict 
 
-import re
-
 def get_birthdays_week(users):
   birthdays_week = defaultdict(list)
   current_date = datetime.today().date()
